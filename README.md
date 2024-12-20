@@ -61,11 +61,11 @@ Example, in your IDE or Claude Desktop:
 Maps a GitHub repository structure and provides summary information.  
 
 Example:
-   ```plaintext
+   ```
    Please map-github-repo https://github.com/dazeb/MCP-Github-Mapper
    ```
 
-## Manual install in Cline or Roo-Cline:
+## Manual install in Cline or Roo-Cline MCP Client:
    ```json
    {
      "mcpServers": {
