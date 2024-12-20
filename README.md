@@ -44,47 +44,38 @@ GitHub Mapper is a Model Context Protocol (MCP) server that provides tools for m
 
 ## Available Tools
 
-### 1. set-github-token
+### 1. `set-github-token` 
 
-Sets the GitHub Personal Access Token for authentication.
+Sets the GitHub Personal Access Token for authentication.  
 
-Input schema:
-```json
-{
-  "token": "your-github-personal-access-token"
-}
-```
+- Create your Personal Access Token [here](https://github.com/settings/tokens/). Choose Tokens (classic). Scopes: repo
+![image](https://github.com/user-attachments/assets/08b277a5-f121-4204-acee-47871f2d3bac)
 
-Example usage:
-```json
-{
-  "name": "set-github-token",
-  "arguments": {
-    "token": "ghp_your_personal_access_token"
-  }
-}
-```
+Example, in your IDE or Claude Desktop:
+   ```
+   Please set-github-token to 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
+   ```
 
-### 2. map-github-repo
+### 2. `map-github-repo`  
 
-Maps a GitHub repository structure and provides summary information.
+Maps a GitHub repository structure and provides summary information.  
 
-Input schema:
-```json
-{
-  "repoUrl": "https://github.com/username/repo"
-}
-```
+Example:
+   ```plaintext
+   Please map-github-repo https://github.com/dazeb/MCP-Github-Mapper
+   ```
 
-Example usage:
-```json
-{
-  "name": "map-github-repo",
-  "arguments": {
-    "repoUrl": "https://github.com/octocat/Hello-World"
-  }
-}
-```
+## Manual install in Cline or Roo-Cline:
+   ```json
+   {
+     "mcpServers": {
+       "github-mapper": {
+         "command": "node",
+         "args": ["/home/user/Documents/Cline/MCP/github-mapper/build/index.js"]
+       }
+     }
+   }
+   ```
 
 ## Example Output
 
@@ -125,6 +116,8 @@ Repository Structure:
   "README.md": null
 }
 ```
+## Images
+![image](https://github.com/user-attachments/assets/a816314a-57aa-4674-a1eb-7b345184f5e6)  
 
 ## Error Handling
 
