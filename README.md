@@ -1,5 +1,7 @@
 # GitHub Mapper MCP Server
 
+[![smithery badge](https://smithery.ai/badge/github-mapper-mcp-server)](https://smithery.ai/server/github-mapper-mcp-server)
+
 GitHub Mapper is a Model Context Protocol (MCP) server that provides tools for mapping and analyzing GitHub repositories. It allows users to set a GitHub Personal Access Token and retrieve detailed information about a specified repository, including its structure and summary statistics.
 
 ## Features
@@ -17,6 +19,15 @@ GitHub Mapper is a Model Context Protocol (MCP) server that provides tools for m
 
 ## Installation
 
+### Installing via Smithery
+
+To install GitHub Mapper for Claude Desktop automatically via [Smithery](https://smithery.ai/server/github-mapper-mcp-server):
+
+```bash
+npx -y @smithery/cli install github-mapper-mcp-server --client claude
+```
+
+### Manual Installation
 1. Clone the repository:
    ```
    git clone https://github.com/your-username/github-mapper-mcp-server.git
