@@ -130,6 +130,15 @@ Repository Structure:
 ## Images
 ![image](https://github.com/user-attachments/assets/a816314a-57aa-4674-a1eb-7b345184f5e6)  
 
+
+
+## Running evals
+
+The evals package loads an mcp client that then runs the index.ts file, so there is no need to rebuild between tests. You can load environment variables by prefixing the npx command. Full documentation can be found [here](https://www.mcpevals.io/docs).
+
+```bash
+OPENAI_API_KEY=your-key  npx mcp-eval src/evals/evals.ts src/index.ts
+```
 ## Error Handling
 
 - If the GitHub token is not set, you'll receive an error message prompting you to use the `set-github-token` tool first.
