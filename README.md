@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dazeb-mcp-github-mapper-badge.png)](https://mseep.ai/app/dazeb-mcp-github-mapper)
+
 # GitHub Mapper MCP Server
 
 [![smithery badge](https://smithery.ai/badge/github-mapper-mcp-server)](https://smithery.ai/server/github-mapper-mcp-server)
