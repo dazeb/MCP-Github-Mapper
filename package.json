@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "latest",
-    "@octokit/rest": "^19.0.7",
+    "@octokit/rest": "^20.0.2",
     "mcp-evals": "^1.0.18"
   },
   "devDependencies": {
